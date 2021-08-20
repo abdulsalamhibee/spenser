@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="spenser.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/thinline.css">
     <title>spenser</title>
   </head>
   <body>
@@ -21,13 +22,16 @@
       </header>
       <div class="sub_header">
         <h2>spense.</h2>
-        <img src="./Assets/Hamburger Menu.svg" alt="" srcset="">
-        <menu>
-          <li>Business</li>
-          <li>Pricing</li>
-          <li>Features</li>
-          <li>Log in</li>
-          <li>Get Started</li>
+        <img class="menu_toggle" src="./Assets/Hamburger Menu.svg" alt="" srcset="">
+        <menu id="menu">
+          <i class="uit uit-times-circle cancle"></i>
+         <ul>
+          <li><a href="">Business</a> </li>
+          <li> <a href="">Pricing</a></li>
+          <li><a href="">Features</a></li>
+          <li><a href="">Log in</a></li>
+          <li><a href="">Get Started ➞</a></li>
+         </ul> 
         </menu>
       </div>
 
@@ -160,7 +164,7 @@
 
   
 
-    
+    <script src="./app.js"></script>
 
   </body>
 </html>
