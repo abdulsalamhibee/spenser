@@ -27,7 +27,7 @@ body {
 
 menu {
   position: absolute;
-  width: 20.3rem;
+  width: 100vw;
   top: 6.2rem;
   left: -0.4rem;
   background-color: #fff;
@@ -73,7 +73,8 @@ menu ul li:nth-child(5) {
   background-color: #ececec;
 }
 .hero1 img {
-  width: 18rem;
+  width: 100vw;
+  padding-right: 2rem;
 }
 .hero2 {
   padding-top: 2rem;
@@ -155,7 +156,7 @@ menu ul li:nth-child(5) {
   font-weight: 600;
 }
 .payment img {
-  width: 15rem;
+  width: 100%;
 }
 
 /* --------TEXT EDITOR SECTION--------- */
